@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://F:/111px/仿慕课网/ocProject/ocCommon/ocCommon.iml" filepath="F:/111px/仿慕课网/ocProject/ocCommon/ocCommon.iml" />
+      <module fileurl="file://F:/111px/仿慕课网/ocProject/ocOperator/ocOperator.iml" filepath="F:/111px/仿慕课网/ocProject/ocOperator/ocOperator.iml" />
+      <module fileurl="file://F:/111px/仿慕课网/ocProject/ocPortal/ocPortal.iml" filepath="F:/111px/仿慕课网/ocProject/ocPortal/ocPortal.iml" />
+      <module fileurl="file://F:/111px/仿慕课网/ocProject/ocProject.iml" filepath="F:/111px/仿慕课网/ocProject/ocProject.iml" />
+      <module fileurl="file://F:/111px/仿慕课网/ocProject/ocService/ocService.iml" filepath="F:/111px/仿慕课网/ocProject/ocService/ocService.iml" />
+      <module fileurl="file://F:/111px/仿慕课网/ocProject/ocWechat/ocWechat.iml" filepath="F:/111px/仿慕课网/ocProject/ocWechat/ocWechat.iml" />
+    </modules>
+  </component>
+</project>
