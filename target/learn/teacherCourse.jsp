@@ -32,7 +32,7 @@
                         <a href="addChapter.jsp?id=${var.id}">添加章节</a>
                     </td>
                     <td>
-                        <a href="javascript:void(0)" onclick="addCollect(${var.id})" class="clt">收藏</a>
+                        <a href="javascript:void(0)" onclick="addCollect(${var.id});change(this)" class="clt">收藏</a>
                     </td>
                     <td>
                         <a href="Teacher?method=deleteCourse&id=${var.id}">删除</a>
@@ -50,10 +50,15 @@
     <script src="jquery-1.12.4.js"></script>
     <script>
         var aj = jQuery.noConflict()
-        aj(".clt").click(function () {
-            this.css("onclick","delCollect(${var.id})")
-            this.text("取消收藏")
-        })
+        function change(obj) {
+            if(aj(obj).text()=="收藏"){
+                aj(obj).text("取消收藏")
+                aj(obj).css("onclick","deleteCollect(${var.id});change(this)")
+            }else {
+                aj(obj).text("收藏")
+                aj(obj).css("onclick","addCollect(${var.id});change(this)")
+            }
+        }
         function addCollect(id) {
             aj.ajax({
                 url: "Collection?method=addCollection",
